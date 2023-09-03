@@ -1,3 +1,4 @@
+//function to generate a random password
 function PasswordGenerator(length) {
     // const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     let num = "12345";
@@ -9,4 +10,4 @@ function PasswordGenerator(length) {
       return password;
 }  
 
-console.log(passwordGenerator(5));
+console.log(passwordGenerator(6));
